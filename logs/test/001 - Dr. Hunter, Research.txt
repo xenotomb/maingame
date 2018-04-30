@@ -1,0 +1,52 @@
+//Hunter is one of the leading scientists onboard Endeavor,
+and oversees all ongoing projects. This often leaves him
+audibly tired, he speaks slowly, and with a fairly
+monotonous tone. Being a man of science and high education,
+he does make a point to note every last detail, even when
+it bores him to say so. The current Saturn excavation does
+hold a slight interest, and he is keeping tabs on it,
+in the hopes of a discovery to negate the dullness
+of being in a space station for months on end.
+
+Items in "[]" brackets should be taken into account as part of
+the delivery, and subsequent sound effects will be added in
+a further stage of production.
+
+Log transcript below:
+
+"This is Dr. Hunter, project manager of the science team onboard
+Endeavor."
+
+"It is currently the fifth of May," [pauses to check watch] "2120,
+17 hours and 30 minutes."
+
+[adjusts papers on desk]
+
+"We've conducted more tests on the artifacts recovered from Saturn,
+and have made significant progress on the scanning of
+these alien objects."
+
+"I have found traces of living cells on a damaged artifact."
+
+It would seem these cells have resided in the objects for [pause]...
+...hundreds of years, perhaps even thousands."
+
+"There [emphasis] is visible erosion on the objects, as if they were rocks,
+however the profile of these objects is too discrete to be natural,
+in our understanding of the word, of course."
+
+[adjusts papers on desk]
+
+"The damaged artifact appears to have corroded from inside,
+I suggest that cells have eaten away at the material, but
+we won't have conclusive evidence until we've identified
+similar activity in our other specimens."
+
+"There are no cells to be observed from the damaged objects,
+but we are expecting to have greater success when..."
+
+"...if we can open one of the other objects."
+
+[adjusts papers, stores them into desk]
+
+"This is Dr. Hunter, end of log."

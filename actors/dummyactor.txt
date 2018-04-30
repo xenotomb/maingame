@@ -1,0 +1,20 @@
+Actor Dummy 21212
+{
+	Radius 8
+	Height 4
+	Tag "Dummy"
+	Scale 1.0
+	MONSTER
+	States
+	{
+		Spawn:
+			DUMB A 1 A_Look
+			Loop
+		See:
+			DUMB A 1 A_Chase
+			Loop
+		Death:
+			TNT1 A 1
+			Stop
+	}
+}

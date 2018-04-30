@@ -1,0 +1,151 @@
+//#import "../../lib/acsutils/acsutils.acs"
+#include "zcommon.acs"
+
+//function void show_tagline(void)
+
+script "titlemap" OPEN
+{
+	ClearInventory();
+	
+	GiveInventory("CutsceneMode", 1); // hide STBAR
+	
+	SetMusic("MIDRESET");
+	Delay(8);
+	
+	SetMusic("FANFARE");
+	SetHudSize(640, 480, 0);
+	SetFont("STAR1");
+	HudMessage(s:"A"; HUDMSG_FADEINOUT, 10, CR_UNTRANSLATED, 320.0, 240.0, 5.0, 2.0, 1.0);
+	SetFont("LOGO1");
+	HudMessage(s:"A"; HUDMSG_FADEINOUT, 9, CR_UNTRANSLATED, 320.0, 240.0, 5.0, 2.0, 1.0);
+	Delay(35 * 3);
+	
+	//show_tagline();
+	
+	Delay(35 * 6);
+	
+	SetMusic("");
+	Delay(35 * 2);
+	SetMusic("X_TOMB");
+	
+	ACS_NamedExecute("cutscene", 0);
+	Delay(300);
+	
+	ACS_NamedExecute("print_msg", 0);
+}
+
+/*script "cutscene" (void)
+{
+	SetMusic("X_TITLEM");
+	SetHudSize(320, 240, 0);
+	SetFont("ADVISOR");
+	HudMessage(s:"A"; HUDMSG_FADEINOUT, 9, CR_UNTRANSLATED, 0.5, 0.5, 5.0, 2.0, 1.0);
+	Delay(300);
+	
+	SetHudSize(640, 480, 0);
+	SetFont("CUT1A1");
+	HudMessage(s:"A"; HUDMSG_FADEINOUT, 9, CR_UNTRANSLATED, 0.5, 0.5, 5.0, 2.0, 1.0);
+	Delay(300);
+	
+	SetFont("CUT1B1");
+	HudMessage(s:"A"; HUDMSG_FADEINOUT, 9, CR_UNTRANSLATED, 0.5, 0.5, 0, 1.0);
+	Delay(10);
+	
+	SetFont("CUT1B2");
+	HudMessage(s:"A"; HUDMSG_PLAIN, 9, CR_UNTRANSLATED, 0.5, 0.5, 0, 0.0);
+	Delay(10);
+	
+	SetFont("CUT1B3");
+	HudMessage(s:"A"; HUDMSG_PLAIN, 9, CR_UNTRANSLATED, 0.5, 0.5, 0, 0.0);
+	Delay(10);
+	
+	SetFont("CUT1B4");
+	HudMessage(s:"A"; HUDMSG_PLAIN, 9, CR_UNTRANSLATED, 0.5, 0.5, 0, 0.0);
+	Delay(10);
+	
+	SetFont("CUT1B5");
+	HudMessage(s:"A"; HUDMSG_PLAIN, 9, CR_UNTRANSLATED, 0.5, 0.5, 0, 0.0);
+	Delay(10);
+	
+	SetFont("CUT1B6");
+	HudMessage(s:"A"; HUDMSG_PLAIN, 9, CR_UNTRANSLATED, 0.5, 0.5, 0, 0.0);
+	Delay(12);
+	
+	SetFont("CUT1B7");
+	HudMessage(s:"A"; HUDMSG_PLAIN, 9, CR_UNTRANSLATED, 0.5, 0.5, 0, 0.0);
+	Delay(10);
+	
+	SetFont("CUT1B8");
+	HudMessage(s:"A"; HUDMSG_PLAIN, 9, CR_UNTRANSLATED, 0.5, 0.5, 0, 0.0);
+	Delay(10);
+	
+	SetFont("CUT1B9");
+	HudMessage(s:"A"; HUDMSG_PLAIN, 9, CR_UNTRANSLATED, 0.5, 0.5, 0, 0.0);
+	Delay(12);
+	
+	SetFont("CUT1B10");
+	HudMessage(s:"A"; HUDMSG_PLAIN, 9, CR_UNTRANSLATED, 0.5, 0.5, 0, 0.0);
+	Delay(14);
+	
+	SetFont("CUT1B11");
+	HudMessage(s:"A"; HUDMSG_PLAIN, 9, CR_UNTRANSLATED, 0.5, 0.5, 0, 0.0);
+	Delay(50);
+	
+	SetFont("CUT1B12");
+	HudMessage(s:"A"; HUDMSG_FADEOUT, 9, CR_UNTRANSLATED, 0.5, 0.5, 2.0, 1.0);
+	Delay(200);
+	
+	SetFont("CUT1C1");
+	HudMessage(s:"A"; HUDMSG_FADEINOUT, 9, CR_UNTRANSLATED, 0.5, 0.5, 5.0, 2.0, 1.0);
+	Delay(300);
+	
+	SetFont("CUT1D1");
+	HudMessage(s:"A"; HUDMSG_FADEINOUT, 9, CR_UNTRANSLATED, 0.5, 0.5, 5.0, 2.0, 1.0);
+	Delay(300);
+	
+	SetFont("CUT1E1");
+	HudMessage(s:"A"; HUDMSG_FADEINOUT, 9, CR_UNTRANSLATED, 0.5, 0.5, 5.0, 2.0, 1.0);
+	Delay(300);
+	
+	SetFont("CUT1F1");
+	HudMessage(s:"A"; HUDMSG_PLAIN, 9, CR_UNTRANSLATED, 0.5, 0.5, 0, 2.0, 1.0);
+}
+
+function void show_tagline(void)
+{
+	str tagline = "XENOTOMB_SLOGAN_DEFAULT";
+	
+	if(Random(0,1)) // 50% chance of tagline
+	{
+		int tagline_amount;
+		
+		if(Random(0,3)) // 75% chance of regular tagline
+		{
+			tagline_amount = atoi(lang("XENOTOMB_SLOGAN_AMOUNT"));
+			
+			tagline = StrParam(s:"XENOTOMB_SLOGAN", i:Random(0, tagline_amount - 1));
+		} else { // silly tagline
+			tagline_amount = atoi(lang("XENOTOMB_TAGLINE_AMOUNT"));
+			
+			tagline = StrParam(s:"XENOTOMB_TAGLINE", i:Random(0, tagline_amount - 1));
+		}
+	}
+	
+	SetFont("FONTA");
+	HudMessage(l:tagline; HUDMSG_FADEINOUT, 0, CR_WHITE, 320.0, 440.0, 3.0, 1.0, 1.0);
+}
+
+script "print_msg" (void)
+{
+		int msg_amount = atoi(lang("XENOTOMB_TTLMSG_AMOUNT"));
+		
+		for(int i = 0; i < msg_amount; ++i)
+		{
+			SetFont("SMALLFONT");
+			
+			str msg = StrParam(s:"XENOTOMB_TTLMSG", i:i);
+			HudMessage(l:msg; HUDMSG_TYPEON, 0, CR_DARKGREEN, 0.5, -0.75, 1.0, 0.1, 2.5);
+			
+			Delay(300);
+		}
+}

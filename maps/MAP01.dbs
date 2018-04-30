@@ -1,0 +1,114 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "C:\\Users\\Neon7\\Downloads\\Doom\\Xenotomb\\src\\src";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "FLOR1";
+		defaultceiltexture = "DFKTX064";
+		defaulttoptexture = "FLOR1";
+		defaultwalltexture = "FLOR1";
+		defaultbottomtexture = "FLOR1";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = true;
+		viewpositionx = 4.357483f;
+		viewpositiony = 177.6118f;
+		viewscale = 1.461918f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 16f;
+		}
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsety_mid = 1;
+				scalex_mid = 1;
+			}
+			
+			sector
+			{
+				rotationfloor = 1;
+				lightceiling = 0;
+				color_ceiling = 0;
+				color_floor = 0;
+				color_wallbottom = 0;
+				color_sprites = 0;
+				color_walltop = 0;
+				floorglowcolor = 0;
+				ceilingglowcolor = 0;
+				floor_reflect = 1;
+				xpanningfloor = 1;
+				floorglowheight = 1;
+				ypanningfloor = 1;
+				rotationceiling = 1;
+				xpanningceiling = 1;
+				xscaleceiling = 1;
+				xscalefloor = 1;
+				ypanningceiling = 1;
+				ceilingglowheight = 1;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				activetab = true;
+			}
+		}
+	}
+}

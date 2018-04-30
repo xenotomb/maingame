@@ -1,0 +1,101 @@
+//===========================================================================
+//
+// ANIMDEFS
+//
+//===========================================================================
+
+texture CUT1A1
+pic CUT1A1 tics 2
+pic CUT1A2 tics 6
+
+texture CUT1B12
+pic CUT1B12 tics 4
+pic CUT1B13 tics 4
+
+texture STLIFEA1 //	Animated Life Status (76% or more)
+pic STLIFEA1 tics 2
+pic STLIFEA2 tics 2
+pic STLIFEA3 tics 2
+pic STLIFEA4 tics 2
+pic STLIFEA5 tics 2
+pic STLIFEA6 tics 2
+pic STLIFEA7 tics 20
+
+texture STLIFEB1 //	Animated Life Status (51%-75%)
+pic STLIFEB1 tics 2
+pic STLIFEB2 tics 2
+pic STLIFEB3 tics 2
+pic STLIFEB4 tics 2
+pic STLIFEB5 tics 2
+pic STLIFEB6 tics 2
+pic STLIFEB7 tics 16
+
+texture STLIFEC1 //	Animated Life Status (26%-50%)
+pic STLIFEC1 tics 2
+pic STLIFEC2 tics 2
+pic STLIFEC3 tics 2
+pic STLIFEC4 tics 2
+pic STLIFEC5 tics 1
+pic STLIFEC6 tics 1
+pic STLIFEC7 tics 12
+
+texture STLIFED1 //	Animated Life Status (25% or less)
+pic STLIFED1 tics 1
+pic STLIFED2 tics 1
+pic STLIFED3 tics 1
+pic STLIFED4 tics 1
+pic STLIFED5 tics 1
+pic STLIFED6 tics 1
+pic STLIFED7 tics 8
+
+texture STAR1 //Gamestar Logo Background
+pic STAR1 tics 16
+pic STAR2 tics 8
+pic STAR3 tics 8
+pic STAR1 tics 16
+pic STAR3 tics 8
+pic STAR4 tics 8
+pic STAR2 tics 16
+pic STAR1 tics 8
+pic STAR3 tics 8
+pic STAR1 tics 16
+pic STAR4 tics 8
+pic STAR2 tics 8
+
+texture LOGO1 //Gamestar Logo
+pic LOGO1 tics 200
+pic LOGO2 tics 1
+pic LOGO3 tics 1
+pic LOGO4 tics 1
+pic LOGO5 tics 1
+pic LOGO6 tics 1
+pic LOGO7 tics 1
+pic LOGO8 tics 1
+pic LOGO9 tics 1
+pic LOGO10 tics 1
+pic LOGO11 tics 1
+pic LOGO12 tics 1
+pic LOGO13 tics 1
+pic LOGO14 tics 1
+pic LOGO15 tics 1
+pic LOGO16 tics 1
+pic LOGO17 tics 1
+pic LOGO18 tics 1
+pic LOGO19 tics 1
+pic LOGO20 tics 1
+pic LOGO21 tics 1
+pic LOGO22 tics 1
+pic LOGO23 tics 2
+pic LOGO24 tics 2
+pic LOGO25 tics 2
+pic LOGO26 tics 2
+pic LOGO27 tics 2
+pic LOGO28 tics 2
+pic LOGO29 tics 1
+pic LOGO30 tics 1
+pic LOGO1 tics 210
+
+cameratexture CAMTEX1 2048 2048 fit 32 24
+cameratexture CAMTEX2 256 256 fit 48 30
+cameratexture CAMTEX3 256 256 fit 64 40
+cameratexture CAMTEX4 256 256 fit 64 40

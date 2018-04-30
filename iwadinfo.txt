@@ -1,0 +1,11 @@
+IWad
+{
+	Name = "Xenotomb (Drag onto EXE and load with Resources!)"
+	Autoname = "xenotomb"
+	Game = "Doom"
+	Config = "Xenotomb"
+	Mapinfo = "mapinfo/doom2.txt"
+	MustContain = "xenolump"
+	BannerColors = "33 FF 6E", "3E 5C 67"
+	StartupType = "Hexen"
+}
