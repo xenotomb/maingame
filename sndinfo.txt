@@ -6,3 +6,5 @@
 
 engine1 engine1
 $ambient 1 engine1 point continuous 1.0
+
+testlog1 "logs/test/001.mp3"

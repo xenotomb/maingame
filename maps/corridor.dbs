@@ -22,9 +22,9 @@ maps
 		}
 		defaultfloortexture = "FLOR3T";
 		defaultceiltexture = "DFKTX064";
-		defaulttoptexture = "FLOR1";
-		defaultwalltexture = "FLOR1";
-		defaultbottomtexture = "FLOR1";
+		defaulttoptexture = "WALL1";
+		defaultwalltexture = "WALL1";
+		defaultbottomtexture = "WALL1";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -38,9 +38,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = true;
-		viewpositionx = -194.4675f;
-		viewpositiony = -146.6087f;
-		viewscale = 2.889978f;
+		viewpositionx = -1103.667f;
+		viewpositiony = 448.6398f;
+		viewscale = 0.2767809f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -51,7 +51,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 8f;
+			gridsize = 64f;
 		}
 		
 		fieldtypes
@@ -116,6 +116,7 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
+				caretposition = 57;
 				activetab = true;
 			}
 		}

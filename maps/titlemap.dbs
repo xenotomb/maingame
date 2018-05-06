@@ -8,7 +8,7 @@ maps
 	MAP01
 	{
 		scriptcompiler = "zdoom_acs.cfg";
-		defaultfloortexture = "-";
+		defaultfloortexture = "BLACK";
 		overrideceilheight = false;
 		
 		resources
@@ -23,7 +23,36 @@ maps
 				notfortesting = 0;
 			}
 		}
-		defaulttoptexture = "-";
+		defaulttoptexture = "BLACK";
+		overridemiddletexture = false;
+		viewpositionx = 39.64246f;
+		viewpositiony = 19.39185f;
+		viewscale = 7.178252f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 4f;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+		}
+		defaultceiltexture = "BLACK";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "BLACK";
+		defaultbottomtexture = "BLACK";
 		
 		scriptdocuments
 		{
@@ -44,39 +73,10 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 3651;
-				firstvisibleline = 113;
+				caretposition = 541;
+				firstvisibleline = 9;
 				activetab = true;
 			}
 		}
-		overridemiddletexture = false;
-		viewpositionx = 96f;
-		viewpositiony = 32f;
-		viewscale = 1.487165f;
-		overridefloortexture = false;
-		customceilheight = 128;
-		customfloorheight = 0;
-		
-		grid
-		{
-			backoffsety = 0;
-			backoffsetx = 0;
-			backscalex = 100;
-			gridsize = 16f;
-			background = "";
-			backsource = 0;
-			backscaley = 100;
-		}
-		defaultceiltexture = "-";
-		overridebrightness = false;
-		uselongtexturenames = false;
-		useresourcesinreadonlymode = false;
-		overridebottomtexture = false;
-		overridefloorheight = false;
-		overridetoptexture = false;
-		custombrightness = 196;
-		overrideceiltexture = false;
-		defaultwalltexture = "-";
-		defaultbottomtexture = "-";
 	}
 }

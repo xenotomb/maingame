@@ -46,6 +46,7 @@ clearepisodes
 episode corridor
 {
    name = "Corridor Test Map"
+   
 }
 
 episode terminal
@@ -53,10 +54,14 @@ episode terminal
    name = "Terminal Test Map"
 }
 
+episode door
+{
+   name = "Door Test Map"
+}
 
 map TITLEMAP "TITLEMAP"
 {
-	music = "MIDRESET"
+	music = ""
 }
 
 
@@ -64,11 +69,19 @@ map corridor "Corridor Test"
 {
 	LevelNum = 1
 	sky1 = "STAR1"
-	music = "MIDRESET"
+	music = ""
 }
 
 map terminal "Terminal Test"
 {
 	LevelNum = 1
 	sky1 = "STAR1"
+	music = ""
+}
+
+map door "Door Test"
+{
+	LevelNum = 1
+	sky1 = "STAR1"
+	music = ""
 }
