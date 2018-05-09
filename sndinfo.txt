@@ -6,5 +6,12 @@
 
 engine1 engine1
 $ambient 1 engine1 point continuous 1.0
+ship1 ship1
+$ambient 2 ship1 point continuous 1.0
+
 
 testlog1 "logs/test/001.mp3"
+
+//flashlight
+// Sound Info
+flashlight/click	click

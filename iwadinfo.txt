@@ -1,6 +1,6 @@
 IWad
 {
-	Name = "Xenotomb (Drag onto EXE and load with Resources!)"
+	Name = "Xenotomb (Development Build, Pre-Release!)"
 	Autoname = "xenotomb"
 	Game = "Doom"
 	Config = "Xenotomb"

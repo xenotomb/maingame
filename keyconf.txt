@@ -3,3 +3,15 @@
 // KEYCONF
 //
 //===========================================================================
+// Key Configuration
+// Aliases
+Alias "ToggleFlashlight" "PukeName ToggleFlashlight"
+
+// Key Sections
+AddKeySection "Flashlight" "flashlight"
+
+// Menu Keys
+AddMenuKey "Toggle" "ToggleFlashlight"
+
+// Default Binds
+DefaultBind "F" "ToggleFlashlight"

@@ -20,11 +20,11 @@ maps
 				notfortesting = 0;
 			}
 		}
-		defaultfloortexture = "FLOR3T";
-		defaultceiltexture = "DFKTX064";
-		defaulttoptexture = "WALL1";
-		defaultwalltexture = "WALL1";
-		defaultbottomtexture = "WALL1";
+		defaultfloortexture = "STRP1H";
+		defaultceiltexture = "STRP1H";
+		defaulttoptexture = "FLOR3T";
+		defaultwalltexture = "FLOR3T";
+		defaultbottomtexture = "FLOR3T";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -37,10 +37,10 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		useresourcesinreadonlymode = true;
-		viewpositionx = -1633.451f;
-		viewpositiony = 894.8583f;
-		viewscale = 0.6080867f;
+		useresourcesinreadonlymode = false;
+		viewpositionx = 451.2996f;
+		viewpositiony = 1368.624f;
+		viewscale = 1.900489f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -51,7 +51,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 32f;
+			gridsize = 16f;
 		}
 		
 		fieldtypes
@@ -61,63 +61,29 @@ maps
 			{
 				offsetx_mid = 1;
 				offsetx_top = 1;
-				offsety_top = 1;
-				offsety_mid = 1;
-				offsety_bottom = 1;
-				scalex_mid = 1;
 				offsetx_bottom = 1;
-				scaley_mid = 1;
+				offsety_bottom = 1;
+				offsety_mid = 1;
+				offsety_top = 1;
 			}
 			
 			sector
 			{
-				rotationfloor = 1;
-				lightceiling = 0;
-				color_ceiling = 0;
-				color_floor = 0;
-				color_wallbottom = 0;
-				color_sprites = 0;
-				color_walltop = 0;
-				floorglowcolor = 0;
 				ceilingglowcolor = 0;
-				rotationceiling = 1;
+				floorglowcolor = 0;
+				color_ceiling = 0;
 				yscaleceiling = 1;
 				ypanningceiling = 1;
-				floorglowheight = 1;
 				xpanningceiling = 1;
+				rotationceiling = 1;
 				xscaleceiling = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
+				rotationfloor = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;
-				lightcolor = 0;
-				ceilingglowheight = 1;
-				floor_reflect = 1;
 				lightfloor = 0;
-			}
-		}
-		
-		scriptdocuments
-		{
-			
-			document0
-			{
-				filename = "DIALOGUE";
-				hash = 3588187714;
-				resource;
-				tabtype = 0;
-				scripttype = 18;
-			}
-			
-			document1
-			{
-				filename = "SCRIPTS";
-				hash = 3469170009;
-				resource;
-				tabtype = 0;
-				scripttype = 1;
-				caretposition = 57;
-				activetab = true;
+				lightceiling = 0;
 			}
 		}
 	}
