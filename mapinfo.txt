@@ -6,6 +6,7 @@
 gameinfo
 {
 	//GL specific options
+	pixelratio = 1.2 //(1.0 didn't work either)
 	lightmode = 3
 	//	Original menu, now redundant due to TITLEMAP
 	creditpage = "XENOTOMB"
@@ -43,6 +44,12 @@ gameinfo
 }
 
 clearepisodes
+
+defaultmap
+{
+	pixelratio = 1.2
+	lightmode = 3
+}
 
 episode corridor
 {
@@ -85,4 +92,5 @@ map door "Door Test"
 	LevelNum = 1
 	sky1 = "STAR1"
 	music = ""
+	pixelratio = 1.9
 }
