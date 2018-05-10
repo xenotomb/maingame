@@ -7,6 +7,8 @@
 //Flashlight
 // Decorate
 
+#include "decorate/decorate.zones"
+
 // Constants
 const int flashlightVert = 18;
 const int flashlightHoriz = 0; // 36 for over-the-shoulder effect

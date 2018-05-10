@@ -24,6 +24,8 @@ statusbar fullscreen, forcescaled, fullscreenoffsets
 {
 	InInventory not CutsceneMode
 	{
+		//drawimage "visext", 0+center, 0+center, center;
+		//drawimage "visint", 0+center, 0+center, center;
 		//Life Display
 		drawimage "STLIFEBG", 0, -32; //Background
 		drawimage "STLIFED1", 0,-32;

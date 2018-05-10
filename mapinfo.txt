@@ -3,9 +3,10 @@
 // MAPINFO
 //
 //===========================================================================
-
 gameinfo
 {
+	//GL specific options
+	lightmode = 3
 	//	Original menu, now redundant due to TITLEMAP
 	creditpage = "XENOTOMB"
 	infopage = "XENOHELP"

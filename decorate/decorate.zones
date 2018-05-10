@@ -1,0 +1,119 @@
+actor ZoneDoor 22220
+{
+	Scale 0.5
+	Radius 8
+	Height 16
+	+VISIBILITYPULSE
+	+NOBLOCKMAP
+	+NOGRAVITY
+	RenderStyle Translucent
+	//$Category Zone Markers
+	States
+	{
+	Spawn:
+		ZDOR A -1 Bright
+		Stop
+	}
+}
+actor ZoneLift 22221
+{
+	Scale 0.5
+	Radius 8
+	Height 16
+	+VISIBILITYPULSE
+	+NOBLOCKMAP
+	+NOGRAVITY
+	RenderStyle Translucent
+	//$Category Zone Markers
+	States
+	{
+	Spawn:
+		ZLFT A -1 Bright
+		Stop
+	}
+}
+actor ZoneTram 22222
+{
+	Scale 0.5
+	Radius 8
+	Height 16
+	+VISIBILITYPULSE
+	+NOBLOCKMAP
+	+NOGRAVITY
+	RenderStyle Translucent
+	//$Category Zone Markers
+	States
+	{
+	Spawn:
+		ZCAR A -1 Bright
+		Stop
+	}
+}
+actor ZoneLocker 22223
+{
+	Scale 0.5
+	Radius 8
+	Height 16
+	+VISIBILITYPULSE
+	+NOBLOCKMAP
+	+NOGRAVITY
+	RenderStyle Translucent
+	//$Category Zone Markers
+	States
+	{
+	Spawn:
+		ZLKR A -1 Bright
+		Stop
+	}
+}
+actor ZoneCamera 22224
+{
+	Scale 0.5
+	Radius 8
+	Height 16
+	+VISIBILITYPULSE
+	+NOBLOCKMAP
+	+NOGRAVITY
+	RenderStyle Translucent
+	//$Category Zone Markers
+	States
+	{
+	Spawn:
+		ZCAM A -1 Bright
+		Stop
+	}
+}
+actor ZoneTurret 22225
+{
+	Scale 0.5
+	Radius 8
+	Height 16
+	+VISIBILITYPULSE
+	+NOBLOCKMAP
+	+NOGRAVITY
+	RenderStyle Translucent
+	//$Category Zone Markers
+	States
+	{
+	Spawn:
+		ZTRT A -1 Bright
+		Stop
+	}
+}
+actor ZoneTerminal 22226
+{
+	Scale 0.5
+	Radius 8
+	Height 16
+	+VISIBILITYPULSE
+	+NOBLOCKMAP
+	+NOGRAVITY
+	RenderStyle Translucent
+	//$Category Zone Markers
+	States
+	{
+	Spawn:
+		ZTRM A -1 Bright
+		Stop
+	}
+}

@@ -8,4 +8,5 @@ IWad
 	MustContain = "xenolump"
 	BannerColors = "33 FF 6E", "3E 5C 67"
 	StartupType = "Hexen"
+	StartupSong = "X_LOADER"
 }
