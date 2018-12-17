@@ -1,4 +1,7 @@
 # maingame
+
+(EDIT: 17/12/18 - Wow this died. Time to reboot it a third time. XIX release, anybody?)
+
 Working directory/git repository for Xenotomb. (Codenamed XIIX for "Xenotomb (18)")
 Project lead and primary mapper and designer is Neo "Neonspider" Te-Aika.
 Additional design, mapping, and advanced programming by Joseph "(insert)" Sutton.
